@@ -1,0 +1,54 @@
+/*
+ Theme Name:     Sancta Maria House Theme
+ Theme URI:      http://lopoukhine.ca/child
+ Description:    Enfold Child Theme - custom
+ Author:         Raphael Lopoukhine
+ Author URI:     http://www.elegantthemes.com
+ Template:       enfold
+ Version:        1.0.0
+*/
+ 
+.responsive .container {
+	max-width: 1200px;
+}
+
+.header_color .main_menu ul:first-child > li > a {
+	text-transform: uppercase;
+	font-size: 15px;
+	padding: 0 20px;
+}
+
+.team-img-container {
+float: left;
+}
+
+.main_color .av-masonry {
+	background-color: #ffffff
+}
+.av-masonry-entry .av-inner-masonry-content {
+	 text-align: center;
+}
+
+a.av-masonry-entry a.av-inner-masonry-content a.av-masonry-item-with-image a.av-masonry-item-loaded{
+	 color:blue;
+}
+
+#top .flex_column .template-blog .post-title {
+    font-size: 1.8em;
+}
+
+.avia-content-slider .slide-entry-title {
+    font-size: 1.3em;
+    }
+
+@media only screen and (max-width: 1100px) {
+.responsive.html_mobile_menu_tablet .main_menu .avia-menu, 
+.responsive.html_mobile_menu_tablet #header_main .social_bookmarks, 
+.responsive.html_mobile_menu_tablet #header_main_alternate{display:none;}
+.responsive.html_mobile_menu_tablet .container #advanced_menu_toggle, .responsive.html_mobile_menu_tablet #advanced_menu_hide{display:block;}
+.responsive.html_mobile_menu_tablet.html_logo_right #advanced_menu_toggle{left:50px;}
+}
+
+.image-overlay-inside, .image-overlay.overlay-type-extern {
+display: none;
+}
